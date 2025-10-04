@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the English version of version control!');
+    res.send('Welcome to the English version of control!');
 });
 
 app.listen(PORT, () => {
